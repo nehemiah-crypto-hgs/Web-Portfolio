@@ -1,0 +1,88 @@
+
+
+
+
+
+
+ .a{
+    display: flex;
+    background-color: orange;
+    width: 100%;
+ }
+ @font-face {
+    font-family: hbuibbi;
+    src: url( MAROLA__\ 2.TTF);
+ }
+ .ani{
+    min-height: 100vh;
+    width: 100%;
+    background-color: orange;
+    background-image: url(giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: rgb(0, 0, 0);
+    padding: 0 8%;
+ }
+
+ .img_home{
+   display: flexbox;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM48ZgJFrDuym6oFj25SPjiaV4MzQ8MpNLNg&s);
+   background-size: cover;
+   background-repeat: repeat;
+   background-position: center;
+   width: 100%;
+ }
+ .border{
+   
+   border: 2px solid white;
+   padding: 15px;
+   width: 550px;
+   margin: 20px;
+   
+ }
+
+
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.floot{
+   float: right;
+}
+
+.cards{
+   display: contents;
+}
+
+.bacround{
+   background-image: url(https://yt3.googleusercontent.com/zb-CeccQq1pm8B_zvan3SZ5LGJ1EATwU6EeLye35F8wjG3nClyIzhNPA53xoUjGA4BEk6mYLmRg=s900-c-k-c0x00ffffff-no-rj);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
